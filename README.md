@@ -1,30 +1,27 @@
-#Trabalho_Crud_Dev_WEB
+# CRUD Java
 
 O projeto implementa um conjunto básico de operações CRUD para gerenciamento de registros em um servidor Java. As operações CRUD são:
 
-Create (Criar)
-Descrição: Adiciona um novo registro ao sistema.
-Método HTTP: POST
-Endpoint: /api/registro
-Corpo da Requisição: Dados do novo registro no formato JSON.
-
-
-Read (Ler)
-Descrição: Recupera e exibe um registro existente com base no seu identificador.
-Método HTTP: GET
-Endpoint: /api/registro/{id}
+### Create (Criar) <br>
+Descrição: Adiciona um novo registro ao sistema. <br>
+Método HTTP: POST <br>
+Endpoint: /api/registro <br>
+Corpo da Requisição: Dados do novo registro no formato JSON. <br><br>
+### Read (Ler) <br>
+Descrição: Recupera e exibe um registro existente com base no seu identificador. <br>
+Método HTTP: GET <br>
+Endpoint: /api/registro/{id} <br>
+Parâmetros: id - Identificador do registro. <br><br>
+### Update (Atualizar) <br>
+Descrição: Modifica os dados de um registro existente. <br>
+Método HTTP: PUT <br>
+Endpoint: /api/registro/{id} <br>
+Corpo da Requisição: Dados atualizados do registro no formato JSON. <br><br>
+### Delete (Excluir) <br>
+Descrição: Remove um registro existente do sistema. <br>
+Método HTTP: DELETE <br>
+Endpoint: /api/registro/{id} <br>
 Parâmetros: id - Identificador do registro.
+Cada operação é acessada por meio de um endpoint HTTP específico, permitindo a manipulação dos registros no sistema de maneira simples e eficiente.
 
 
-Update (Atualizar)
-Descrição: Modifica os dados de um registro existente.
-Método HTTP: PUT
-Endpoint: /api/registro/{id}
-Corpo da Requisição: Dados atualizados do registro no formato JSON.
-
-
-Delete (Excluir)
-Descrição: Remove um registro existente do sistema.
-Método HTTP: DELETE
-Endpoint: /api/registro/{id}
-Parâmetros: id - Identificador do registro. Cada operação é acessada por meio de um endpoint HTTP específico, permitindo a manipulação dos registros no sistema de maneira simples e eficiente.
